@@ -1,0 +1,37 @@
+[
+  {
+    "type": "text",
+    "path": "CROP_TABLE\\outside_table\\text_0.png",
+    "order": 0
+  },
+  {
+    "type": "table",
+    "id": "table_0",
+    "order": 311.98
+  },
+  {
+    "type": "text",
+    "path": "CROP_TABLE\\outside_table\\text_1.png",
+    "order": 671
+  },
+  {
+    "type": "table",
+    "id": "table_1",
+    "order": 1661.66
+  },
+  {
+    "type": "text",
+    "path": "CROP_TABLE\\outside_table\\text_2.png",
+    "order": 2477
+  },
+  {
+    "type": "table",
+    "id": "table_2",
+    "order": 2713.28
+  },
+  {
+    "type": "text",
+    "path": "CROP_TABLE\\outside_table\\text_3.png",
+    "order": 3157
+  }
+]

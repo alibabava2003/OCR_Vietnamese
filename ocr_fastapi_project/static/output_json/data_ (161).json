@@ -1,0 +1,93 @@
+{
+  "3. Ngành, nghề kinh doanh": null,
+  "tables": [
+    [
+      {
+        "STT": null,
+        "Tên ngành": "V1",
+        "Mã ngành": null,
+        "Ngành, nghề kinh doanh chính (Đánh dấu x để chọn một trong các ngành, nghề đã kê khai)": null
+      }
+    ],
+    [
+      {
+        "STT": null,
+        "Tên địa điểm kinh doanh": null,
+        "Số nhà, đường phố/tổ/xóm/ấp/thôn": null,
+        "Phường/ xã": null,
+        "Quận/ huyện": "Hòng nạch",
+        "Tỉnh/ thành phố": null,
+        "Ngày bắt đầu hoạt động": null
+      },
+      {
+        "STT": null,
+        "Tên địa điểm kinh doanh": "0n",
+        "Số nhà, đường phố/tổ/xóm/ấp/thôn": null,
+        "Phường/ xã": null,
+        "Quận/ huyện": null,
+        "Tỉnh/ thành phố": null,
+        "Ngày bắt đầu hoạt động": null
+      },
+      {
+        "STT": null,
+        "Tên địa điểm kinh doanh": null,
+        "Số nhà, đường phố/tổ/xóm/ấp/thôn": null,
+        "Phường/ xã": null,
+        "Quận/ huyện": null,
+        "Tỉnh/ thành phố": null,
+        "Ngày bắt đầu hoạt động": null
+      }
+    ],
+    [
+      {
+        "STT": null,
+        "Họ tên": "2",
+        "Ngày, tháng, năm sinh": "3",
+        "Giới tính": "4",
+        "Quốc tịch": "5",
+        "Dân tộc": "6",
+        "Địa chỉ thường trú": null,
+        "Địa chỉ liên lạc": "8",
+        "Số, ngày cấp, cơ quan cấp CCCD/CMND": "9",
+        "Chữ ký": "10"
+      },
+      {
+        "STT": null,
+        "Họ tên": null,
+        "Ngày, tháng, năm sinh": "3",
+        "Giới tính": "imm",
+        "Quốc tịch": "Việt linh",
+        "Dân tộc": null,
+        "Địa chỉ thường trú": null,
+        "Địa chỉ liên lạc": null,
+        "Số, ngày cấp, cơ quan cấp CCCD/CMND": null,
+        "Chữ ký": "20/4"
+      },
+      {
+        "STT": null,
+        "Họ tên": null,
+        "Ngày, tháng, năm sinh": null,
+        "Giới tính": null,
+        "Quốc tịch": null,
+        "Dân tộc": null,
+        "Địa chỉ thường trú": null,
+        "Địa chỉ liên lạc": null,
+        "Số, ngày cấp, cơ quan cấp CCCD/CMND": null,
+        "Chữ ký": null
+      }
+    ]
+  ],
+  "4. Vốn kinh doanh": null,
+  "Tổng số (bằng số, bằng chữ, VND)": "17000.000000",
+  "5. Thông tin đăng ký thuế": null,
+  "sở chính)": null,
+  "Số nhà, đường phố/tổ/xóm/ấp/thôn": "10",
+  "Xã/Phường/Thị trấn": "Thạch Hòa",
+  "Quận/Huyện/Thị xã/Thành phố thuộc tỉnh": "Thạch Thất",
+  "Tỉnh/Thành phố": "Hà Nội",
+  "Điện thoại (nếu có)": "0942799217 Email(nếu có):   Ricon@gmail.com",
+  "Độc cấp Giấy chứng nhận đăng ký hộ kinh doanh thị không cần kê khai nội dung mày)": "H",
+  "5.3. Tổng số lao động (dụ kiến)": "10000",
+  "6. Chủ thể thành lập hộ kinh doanh (đánh dấu X vào thích hợp)": null,
+  "7. Thông tin về các thành viên hộ gia đình tham gia thành lập hộ kinh doanh": null
+}

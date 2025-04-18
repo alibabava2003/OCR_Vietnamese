@@ -1,0 +1,30 @@
+cell_0_line_0.png	STT
+cell_1_line_0.png	Họ tên
+cell_2_line_0.png	Ngày,
+cell_2_line_1.png	tháng,
+cell_2_line_2.png	năm sinh
+cell_3_line_0.png	Giới
+cell_3_line_1.png	tính
+cell_4_line_0.png	Quốc
+cell_4_line_1.png	tịch
+cell_5_line_0.png	Dân
+cell_5_line_1.png	tộc
+cell_6_line_0.png	Địa chỉ
+cell_7_line_0.png	Địa chỉ
+cell_7_line_1.png	liên lạc
+cell_8_line_0.png	Số, ngày cấp,
+cell_8_line_1.png	quan cấp
+cell_8_line_2.png	CCCD/CMND
+cell_9_line_0.png	Chữ ký
+cell_11_line_0.png	2
+cell_12_line_0.png	3
+cell_13_line_0.png	4
+cell_14_line_0.png	5
+cell_15_line_0.png	6
+cell_17_line_0.png	8
+cell_18_line_0.png	9
+cell_19_line_0.png	10
+cell_22_line_0.png	3
+cell_23_line_0.png	imm
+cell_24_line_0.png	Việt linh
+cell_29_line_0.png	20/4

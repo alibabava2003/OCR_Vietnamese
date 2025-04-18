@@ -1,0 +1,27 @@
+cell_0_line_0.png	STT
+cell_1_line_0.png	Tên địa điểm
+cell_1_line_1.png	kinh doanh
+cell_2_line_0.png	Địa chỉ kinh
+cell_2_line_1.png	Ngày bất dầu
+cell_2_line_2.png	Số nhà, đường
+cell_2_line_3.png	Phường/
+cell_2_line_4.png	Tỉnh/thành
+cell_2_line_5.png	hoạt dộng
+cell_2_line_6.png	phố nôi cóm/
+cell_2_line_7.png	xã
+cell_2_line_8.png	Quận/huyện
+cell_2_line_9.png	ấp/thôn
+cell_2_line_10.png	phố
+cell_3_line_0.png	Số nhà,
+cell_3_line_1.png	1
+cell_3_line_2.png	đường
+cell_3_line_3.png	phố nồ kóm/
+cell_3_line_4.png	ấp/thôn
+cell_4_line_0.png	Phường/
+cell_4_line_1.png	xã
+cell_5_line_0.png	Quận/huyện
+cell_6_line_0.png	Tỉnh/thành
+cell_6_line_1.png	phố
+cell_11_line_0.png	Hòng
+cell_11_line_1.png	nạch
+cell_15_line_0.png	0n

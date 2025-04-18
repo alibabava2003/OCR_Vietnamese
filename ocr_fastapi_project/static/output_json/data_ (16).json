@@ -1,0 +1,92 @@
+{
+  "3. Ngành, nghề kinh doanh": null,
+  "tables": [
+    [
+      {
+        "STT": "1",
+        "Tên ngành": "M Khoá",
+        "Mã ngành": null,
+        "Ngành, nghề kinh doanh chính (Đánh dấu x để chọn một trong các ngành, nghề đã kê khai)": null
+      }
+    ],
+    [
+      {
+        "STT": "1",
+        "Tên địa điểm kinh doanh": "Min Bình",
+        "Số nhà, đường phố/tổ/xóm/ấp/thôn": "Chợ",
+        "Phường/ xã": "Minh Bình",
+        "Quận/ huyện": "Thanh Dai",
+        "Tỉnh/ thành phố": "Hà Nôi",
+        "Ngày bắt đầu hoạt động": "02/09/019/"
+      },
+      {
+        "STT": null,
+        "Tên địa điểm kinh doanh": null,
+        "Số nhà, đường phố/tổ/xóm/ấp/thôn": null,
+        "Phường/ xã": null,
+        "Quận/ huyện": null,
+        "Tỉnh/ thành phố": null,
+        "Ngày bắt đầu hoạt động": null
+      },
+      {
+        "STT": null,
+        "Tên địa điểm kinh doanh": null,
+        "Số nhà, đường phố/tổ/xóm/ấp/thôn": null,
+        "Phường/ xã": null,
+        "Quận/ huyện": null,
+        "Tỉnh/ thành phố": null,
+        "Ngày bắt đầu hoạt động": null
+      }
+    ],
+    [
+      {
+        "STT": null,
+        "Họ tên": "2",
+        "Ngày, tháng, năm sinh": "3",
+        "Giới tính": null,
+        "Quốc tịch": "5",
+        "Dân tộc": null,
+        "Địa chỉ thường trú": null,
+        "Địa chỉ liên lạc": "8",
+        "Số, ngày cấp, cơ quan cấp CCCD/CMND": "9",
+        "Chữ ký": "10"
+      },
+      {
+        "STT": null,
+        "Họ tên": null,
+        "Ngày, tháng, năm sinh": null,
+        "Giới tính": null,
+        "Quốc tịch": null,
+        "Dân tộc": null,
+        "Địa chỉ thường trú": null,
+        "Địa chỉ liên lạc": null,
+        "Số, ngày cấp, cơ quan cấp CCCD/CMND": null,
+        "Chữ ký": null
+      },
+      {
+        "STT": null,
+        "Họ tên": null,
+        "Ngày, tháng, năm sinh": null,
+        "Giới tính": null,
+        "Quốc tịch": null,
+        "Dân tộc": null,
+        "Địa chỉ thường trú": null,
+        "Địa chỉ liên lạc": null,
+        "Số, ngày cấp, cơ quan cấp CCCD/CMND": null,
+        "Chữ ký": null
+      }
+    ]
+  ],
+  "Điện thoại (nếu có)": "09873344567",
+  "Email (nếu có)": null,
+  "4. Vốn kinh doanh": ")",
+  "Tổng sổ (bằng số, bằng chữ, VND)": "18000000000",
+  "5. Thông tin đăng ký thuế": "5.1. Địa chỉ nhận thông báo thuế (chỉ kê khai nếu địa chỉ nhận thông báo thuế khác địa chỉ trụ",
+  "sở chính)": "Số nhà, đường phố/tổ/xóm/ấp/thôn: Chợ",
+  "Xã/Phường/Thị trấn": "Bình Minh",
+  "Quận/Huyện/Thị xã/Thành phố thuộc tỉnh": "Thanh Oai",
+  "Tỉnh/Thành phố": "Hà Nội",
+  "5.53. Tổng số lao động (dụ kiến)": "5.4. Địa điểm kinh doanh của hộ kinh doanh (Chỉ kê khai khi có địa điểm kinh doanh khác trụ",
+  "6. Chủ thể thành lập hộ kinh doanh (đánh dấu X vào thích hợp)": "Cá nhân Các thành viên hộ gia dinh",
+  "7. Thông tin về các thành viên hộ gia đình tham gia thành lập hộ kinh doanh": null
+}

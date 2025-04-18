@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF to PNG Converter</title>
+    <link rel="stylesheet" href="/static/css/pdf2png_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="pdf2png-container">
+        <div class="nav-bar">
+            <button onclick="window.location.href='/'" class="nav-button">OCR Processing</button>
+            <button onclick="window.location.href='/pdf2png'" class="nav-button">PDF to PNG</button>
+        </div>
+
+        <h1 class="page-title">Upload File for Converting PDF to PNG</h1>
+
+        <div class="drag-area" ondrop="upload_file(event)" ondragover="return false">
+            <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+            <header id="dragText">Drag & Drop to Upload File</header>
+            <span>OR</span>
+            <button type="button">Browse File</button>
+            <input type="file" name="file" id="file" hidden>
+          </div>          
+
+        <button id="convertBtn" class="convert-button" disabled>Convert and Download</button>
+    </div>
+
+    <script src="/static/js/pdf2png.js"></script>
+</body>
+</html>

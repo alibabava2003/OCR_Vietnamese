@@ -1,0 +1,129 @@
+[
+    {
+      "Văn bản 1":{
+      "STT": "Null",
+      "Tên ngành": "Null",
+      "Mã ngành": "Null",
+      "Ngành, nghề kinh doanh chính (Đánh dấu x để chọn một trong các ngành, nghề đã kê khai)": "Null"
+    }},
+    {
+      "Văn bản 1":{
+      "STT": "Null",
+      "Tên địa điểm kinh doanh": "Null",
+      "Số nhà, đường phố/tổ/xóm/ấp/thôn": "Null",
+      "Phường/ xã": "Null",
+      "Quận/ huyện": "Null",
+      "Tỉnh/ thành phố": "Null",
+      "Ngày bắt đầu hoạt động": "Null"
+    }},
+    {
+      "Văn bản 1":{
+      "STT": "1",
+      "Họ tên": "2",
+      "Ngày, tháng, năm sinh": "3",
+      "Giới tính": "4",
+      "Quốc tịch": "5",
+      "Dân tộc": "6",
+      "Địa chỉ thường trú": "7",
+      "Địa chỉ liên lạc": "8",
+      "Số, ngày cấp, cơ quan cấp CCCD/CMND": "9",
+      "Chữ ký": "10"
+    }},
+    {
+      "Văn bản 2":{
+      "STT": "1",
+      "Họ tên": "2",
+      "Ngày, tháng, năm sinh": "3",
+      "Giới tính": "4",
+      "Quốc tịch": "5",
+      "Dân tộc": "6",
+      "Địa chỉ thường trú": "7",
+      "Địa chỉ liên lạc": "8",
+      "Số, ngày cấp, cơ quan cấp CCCD/CMND": "9",
+      "Chữ ký": "10"
+    }},
+    {
+      "Văn bản 2":{
+      "STT": "Null",
+      "Tên ngành, nghề kinh doanh được bổ sung": "Null",
+      "Mã ngành": "Null",
+      "Ngành, nghề kinh doanh chính (Trường hợp một trong các ngành, nghề kinh doanh được bổ sung là ngành, nghề kinh doanh chính thì đánh dấu X vào ô này)": "Null"
+    }},
+    {
+      "Văn bản 2":{
+      "STT": "Null",
+      "Tên ngành, nghề kinh doanh được bỏ khỏi danh sách đã đăng ký": "Null",
+      "Mã ngành": "Null",
+      "Ngành, nghề kinh doanh chính (Trường hợp một trong các ngành, nghề kinh doanh được bỏ là ngành, nghề kinh doanh chính thì đánh dấu X vào ô này": "Null"
+    }},
+    {
+      "Văn bản 2":{
+      "STT": "Null",
+      "Tên ngành, nghề kinh doanh": "Null",
+      "Mã ngành": "Null"
+    }},
+    {
+      "Văn bản 2":{
+      "Chỉ tiêu": "Null",
+      "Thông tin đăng ký cũ": "Null",
+      "Thông tin đăng ký mới": "Null"
+    }},
+    {
+      "Văn bản 2":{
+      "STT": "Null",
+      "Tên địa điểm kinh doanh": "Null",
+      "Số nhà, đường phố/tổ/xóm/ấp/thôn": "Null",
+      "Phường/ xã": "Null",
+      "Quận/ huyện": "Null",
+      "Tỉnh/ thành phố": "Null",
+      "Ngày bắt đầu hoạt động": "Null"
+    }},
+    {
+      "Văn bản 7":{
+      "STT": "Null",
+      "Tên ngành": "Null",
+      "Mã ngành": "Null",
+      "Ngành, nghề kinh doanh chính (Đánh dấu X để chọn một trong các ngành, nghề đã kê khai)": "Null"
+    }},
+    {
+      "Văn bản 7":{
+      "STT": "Null",
+      "Các chỉ tiêu thông tin đăng ký thuế": "Null"
+    }},
+    {
+      "Văn bản 7":{
+      "STT": "1",
+      "Họ tên": "2",
+      "Ngày, tháng, năm sinh": "3",
+      "Giới tính": "4",
+      "Quốc tịch": "5",
+      "Dân tộc": "6",
+      "Địa chỉ thường trú": "7",
+      "Địa chỉ liên lạc": "8",
+      "Số, ngày cấp, cơ quan cấp CCCD/CMND": "9",
+      "Chữ ký": "10"
+    }},
+    {
+      "Văn bản 8":{
+      "STT": "Null",
+      "Tên ngành": "Null",
+      "Mã ngành": "Null",
+      "Ngành, nghề kinh doanh chính": "Null"
+    }},
+    {
+      "Văn bản 8":{
+      "STT": "Null",
+      "Tên thành viên": "Null",
+      "Quốc tịch": "Null",
+      "Địa chỉ liên lạc": "Null",
+      "Địa chỉ thường trú": "Null",
+      "Số CCCD/CMND": "Null",
+      "Ghi chú": "Null"
+    }},
+    {
+      "Văn bản 20":{
+      "STT": "Null",
+      "Tên tài liệu": "Null"
+    }}
+  ]
+  

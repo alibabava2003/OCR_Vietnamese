@@ -1,0 +1,11 @@
+cell_0_line_0.png	STT
+cell_1_line_0.png	Tên ngành
+cell_2_line_0.png	Mã
+cell_2_line_1.png	Ngành
+cell_3_line_0.png	Ngành,
+cell_3_line_1.png	kinh doanh
+cell_3_line_2.png	(Đánh ch một,
+cell_3_line_3.png	đã kê khai)
+cell_3_line_4.png	nghề
+cell_3_line_5.png	nghề
+cell_5_line_1.png	V1

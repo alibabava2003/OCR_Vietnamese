@@ -1,0 +1,83 @@
+{
+  "3. Ngành, nghề kinh doanh": null,
+  "tables": [
+    [
+      {
+        "STT": null,
+        "Tên ngành": null,
+        "Mã ngành": "4651",
+        "Ngành, nghề kinh doanh chính (Đánh dấu x để chọn một trong các ngành, nghề đã kê khai)": null
+      }
+    ],
+    [
+      {
+        "STT": null,
+        "Tên địa điểm kinh doanh": null,
+        "Số nhà, đường phố/tổ/xóm/ấp/thôn": null,
+        "Phường/ xã": null,
+        "Quận/ huyện": null,
+        "Tỉnh/ thành phố": null,
+        "Ngày bắt đầu hoạt động": null
+      },
+      {
+        "STT": null,
+        "Tên địa điểm kinh doanh": null,
+        "Số nhà, đường phố/tổ/xóm/ấp/thôn": null,
+        "Phường/ xã": null,
+        "Quận/ huyện": null,
+        "Tỉnh/ thành phố": null,
+        "Ngày bắt đầu hoạt động": null
+      }
+    ],
+    [
+      {
+        "STT": null,
+        "Họ tên": "2",
+        "Ngày, tháng năm sinh": "3",
+        "Giới Quốc tính tịch": "4",
+        "Dân tộc": "5",
+        "Địa chỉ thường trú": "6",
+        "Địa chỉ liên lạc": null,
+        "Số, ngày cấp, quan CCCD/CMND cấp": "8",
+        "Chữ ký": "9"
+      },
+      {
+        "STT": "10",
+        "Họ tên": null,
+        "Ngày, tháng năm sinh": null,
+        "Giới Quốc tính tịch": null,
+        "Dân tộc": null,
+        "Địa chỉ thường trú": null,
+        "Địa chỉ liên lạc": null,
+        "Số, ngày cấp, quan CCCD/CMND cấp": null,
+        "Chữ ký": null
+      },
+      {
+        "STT": null,
+        "Họ tên": null,
+        "Ngày, tháng năm sinh": null,
+        "Giới Quốc tính tịch": null,
+        "Dân tộc": null,
+        "Địa chỉ thường trú": null,
+        "Địa chỉ liên lạc": null,
+        "Số, ngày cấp, quan CCCD/CMND cấp": null,
+        "Chữ ký": null
+      }
+    ]
+  ],
+  "4. Vốn kinh doanh": null,
+  "Tổng số (bằng số, bằng chữ, VND)": "2500.000 cont (Hài tộ năm trần trái, đông)",
+  "5. Thông tin đăng ký thuế": null,
+  "sở chính)": null,
+  "Số nhà, đường phố/tổ/xóm/ấp/thôn": "25 phố Trần Hưng Đạo",
+  "Xã/Phường/Thị trấn": "Phạc Đạt Tmốc",
+  "phố thuộc tỉnh": "Hoàn Kiếm",
+  "Quận/Huyện/Thị xã/Thành phố thuộc tỉnh": "Hoàn Liêm",
+  "Tỉnh/Thành phố": "Hà Nội",
+  "Điện thoại (nếu có)": "0913328082",
+  "Email (nếu có)": "hunganh81@gmail.com",
+  "Địa chỉ được cấp Giấy chững nhật đăng ký hộ kinh doanh thì không cấn kê khai một dung mày": "H",
+  "5.3. Tổng số lao động (dụ kiến)": "10 nguồi",
+  "6. Chủ thể thành lập hộ kinh doanh (đánh dấu X vào thích hợp)": null,
+  "7. Thông tin về các thành viên hộ gia đình tham gia thành lập hộ kinh doanh": null
+}
