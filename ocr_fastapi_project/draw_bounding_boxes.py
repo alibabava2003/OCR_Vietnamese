@@ -79,8 +79,8 @@ def draw_bounding_boxes(image_path, batch_size=30):
         # Vẽ bounding box như cũ
         cv2.rectangle(image, (int(x_min), int(y_min)), (int(x_max), int(y_max)), (0, 255, 0), 2)
 
-    # Chia batch 30 dòng/lượt
-    for i in range(0, len(cropped_images), 30):
+    # Chia batch 32 dòng/lượt
+    for i in range(0, len(cropped_images), 32):
         batch = cropped_images[i:i + batch_size]
         batch_texts = detector.predict_batch(batch)
         extracted_texts.extend([t.strip() for t in batch_texts])
