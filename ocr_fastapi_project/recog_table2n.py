@@ -1,9 +1,11 @@
 from vietocr.tool.predictor import Predictor
 from vietocr.tool.config import Cfg
 from PIL import Image
+from torchvision import transforms
 import cv2
 import os
 import easyocr
+import torch
 from collections import defaultdict
 
 # ---------------------- EASY OCR DETECT LINE ---------------------- #
@@ -44,13 +46,11 @@ def ocr_line_images(root_input_folder, root_output_folder):
                     x_min, x_max = min(x_coords), max(x_coords)
                     y_min, y_max = min(y_coords), max(y_coords)
 
-                    # Giới hạn tọa độ an toàn trong ảnh
                     x_min = max(0, min(x_min, image.shape[1]-1))
                     x_max = max(0, min(x_max, image.shape[1]-1))
                     y_min = max(0, min(y_min, image.shape[0]-1))
                     y_max = max(0, min(y_max, image.shape[0]-1))
 
-                    # Crop
                     cropped = image[y_min:y_max, x_min:x_max]
 
                     if cropped is not None and cropped.size > 0:
@@ -60,38 +60,62 @@ def ocr_line_images(root_input_folder, root_output_folder):
                     else:
                         print(f"[WARNING] Bỏ qua ảnh rỗng khi crop: {image_path} - box {idx}")
 
+# Hàm resize và normalize ảnh
+def imgproc(image, imgH=32, imgMinW=100, imgMaxW=1000):
+    aspect_ratio = image.width / image.height
+    new_w = int(imgH * aspect_ratio)
+    new_w = max(imgMinW, min(new_w, imgMaxW))
 
-# ---------------------- VIETOCR TEXT RECOGNITION ---------------------- #
-def run_vietocr(input_root, output_root_txt, vietocr_weight_path):
+    image = image.resize((new_w, imgH), Image.BILINEAR)
+
+    new_image = Image.new('RGB', (imgMaxW, imgH), (255, 255, 255))
+    new_image.paste(image, (0, 0))
+
+    transform = transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Normalize((0.5,), (0.5,))
+    ])
+    return transform(new_image)
+
+# ---------------------- VIETOCR TEXT RECOGNITION (BATCH) ---------------------- #
+def run_vietocr(input_root, output_root_txt, vietocr_weight_path, batch_size=32):
     config = Cfg.load_config_from_name('vgg_transformer')
     config['weights'] = vietocr_weight_path
     config['cnn']['pretrained'] = False
-    config['device'] = 'cpu'
+    config['device'] = 'cuda'
     detector = Predictor(config)
 
     os.makedirs(output_root_txt, exist_ok=True)
+
     for folder in sorted(os.listdir(input_root)):
         if folder.startswith('table_'):
             table_path = os.path.join(input_root, folder)
             if os.path.isdir(table_path):
                 output_txt_path = os.path.join(output_root_txt, f"{folder}.txt")
-                print(f"\n🔍 VietOCR xử lý: {folder}")
+                print(f"\nVietOCR xử lý theo batch: {folder}")
 
-                image_files = [f for f in os.listdir(table_path) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
-                cell_dict = defaultdict(list)
-                for f in image_files:
-                    if 'cell_' in f and '_line_' in f:
-                        cell_id = f.split('_line_')[0]
-                        cell_dict[cell_id].append(f)
+                image_files = [f for f in os.listdir(table_path) if f.lower().endswith(('.png', '.jpg', '.jpeg')) and 'cell_' in f and '_line_' in f]
+                image_files.sort(key=lambda x: (int(x.split('_')[1]), int(x.split('_line_')[1].split('.')[0])))
+
+                batch_images = []
+                batch_filenames = []
 
                 with open(output_txt_path, 'w', encoding='utf-8') as f_out:
-                    for cell_id in sorted(cell_dict.keys(), key=lambda x: int(x.split('_')[1])):
-                        lines = sorted(cell_dict[cell_id], key=lambda x: int(x.split('_line_')[1].split('.')[0]))
-                        for line_img in lines:
-                            img_path = os.path.join(table_path, line_img)
-                            img = Image.open(img_path)
-                            text = detector.predict(img)
-                            f_out.write(f"{line_img}\t{text.strip()}\n")
-                            print(f"[{line_img}] => {text.strip()}")
+                    for i, img_name in enumerate(image_files):
+                        img_path = os.path.join(table_path, img_name)
+                        img = Image.open(img_path).convert("RGB")
+                        batch_images.append(img)
+                        batch_filenames.append(img_name)
 
-                print(f"✅ Đã lưu: {output_txt_path}")
+                        if len(batch_images) == batch_size or i == len(image_files) - 1:
+                            # Gọi predict_batch trực tiếp trên list ảnh PIL
+                            batch_result = detector.predict_batch(batch_images)
+
+                            for name, text in zip(batch_filenames, batch_result):
+                                f_out.write(f"{name}\t{text.strip()}\n")
+                                print(f"[{name}] => {text.strip()}")
+
+                            batch_images = []
+                            batch_filenames = []
+
+                print(f"Đã lưu: {output_txt_path}")
